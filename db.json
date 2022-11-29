@@ -1,0 +1,62 @@
+{
+  "consequences": [
+    {
+      "consequence": "Let the group scroll through the photos on your phone for 30 seconds."
+    },
+    {
+      "consequence": "Don't use your legs for the rest of the game. If you have to get up, crawl."
+    },
+    {
+      "consequence": "Guess who in the group makes the most money. You can choose yourself."
+    },
+    {
+      "consequence": "Tell the group which player you think would make the worst parent and why. You can't pick yourself."
+    },
+    {
+      "consequence": "Stick your foot in a toilet and flush."
+    },
+    {
+      "consequence": "Let the player sitting to your right read the last three text messages your sent out loud. You can't check beforehand!"
+    },
+    {
+      "consequence": "Wear a sock on your hand for the rest of the game."
+    },
+    {
+      "consequence": "Call a business and tell them you're not coming in tomorrow."
+    }
+  ],
+  "trivia": [
+    {
+      "question": "What are the 3 first generation starter Pokemon?",
+      "answer": "Bulbasaur, Charmander, Squirtle"
+    },
+    {
+      "question": "A Pomsky is a dog that's a mix of these two breeds.",
+      "answer": "Pomeranian & Husky"
+    },
+    {
+      "question": "How many strings does a violin have?",
+      "answer": "4"
+    },
+    {
+      "question": "Where on the body can you find the femur?",
+      "answer": "Leg"
+    },
+    {
+      "question": "Which of the 7 continents is the smallest?",
+      "answer": "Australia"
+    },
+    {
+      "question": "In 2004, Forbes named this author the first person to become a billionaire from writing books.",
+      "answer": "J.K. Rowling"
+    },
+    {
+      "question": "What is the first letter on a US computer keyboard? (going left to right)?",
+      "answer": "Q"
+    },
+    {
+      "question": "Who is the founder of Amazon?",
+      "answer": "Jeff Bezos"
+    }
+  ]
+}
