@@ -25,16 +25,18 @@ class MyStatelessWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      child: InkWell(
-        splashColor: Colors.blue,
-        onTap: () {
-          debugPrint('Card tapped.');
-        },
-        child: const SizedBox(
-          width: 300,
-          height: 500,
-          child: Text('A card that can be tapped'),
+    return Center(
+      child: Card(
+        child: InkWell(
+          splashColor: Colors.blue,
+          onTap: () {
+            debugPrint('Card tapped.');
+          },
+          child: const SizedBox(
+            width: 300,
+            height: 500,
+            child: Text('A card that can be tapped'),
+          ),
         ),
       ),
     );
