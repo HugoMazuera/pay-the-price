@@ -45,12 +45,14 @@ class _HomePageState extends State<HomePage> {
               child: Text("Pay The Price!"),
             ),
             Align(
-                alignment: const AlignmentDirectional(0.67, 0.49),
-                child: GestureDetector(
-                    onTap: () async {
-                      await launchUrlString('https://paythepricegame.com/');
-                    },
-                    child: const Text('Buy here!'))),
+              alignment: const AlignmentDirectional(0.67, 0.49),
+              child: GestureDetector(
+                onTap: () async {
+                  await launchUrlString('https://paythepricegame.com/');
+                },
+                child: const Text('Buy now!'),
+              ),
+            ),
             Stack(
               children: [
                 Align(
@@ -77,8 +79,12 @@ class _HomePageState extends State<HomePage> {
               alignment: const AlignmentDirectional(-0.89, 0.05),
               child: GestureDetector(
                 onTap: () async {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Trivia()));
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const Trivia(),
+                    ),
+                  );
                 },
                 child: const Text('Play!'),
               ),
