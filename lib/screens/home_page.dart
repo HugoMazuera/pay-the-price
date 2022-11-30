@@ -74,7 +74,7 @@ class _HomePageState extends State<HomePage> {
               child: Text('Created By Santagato Studios'),
             ),
             Align(
-              alignment: AlignmentDirectional(-0.89, 0.05),
+              alignment: const AlignmentDirectional(-0.89, 0.05),
               child: GestureDetector(
                 onTap: () async {
                   Navigator.push(context,
